@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+}
